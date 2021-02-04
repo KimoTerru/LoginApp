@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="please_log_in">please log in</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="password_repeat">repeat password</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="buy_button">Buy</string>
+    <string name="name">Name</string>
+    <string name="position">Position</string>
+</resources>
