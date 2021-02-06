@@ -57,7 +57,7 @@ public class SignUpActivity extends AppCompatActivity {
             showError("Password is empty");
         } else if (!password.trim().equals(passwordRepeat.trim())) {
             showError("Passwords do not match!");
-        } else {
+        } else { //передача данных
             Intent resultIntent = new Intent();
             resultIntent.putExtra("name", name.getText().toString().trim());
             resultIntent.putExtra("position", position.getText().toString().trim());
@@ -73,6 +73,6 @@ public class SignUpActivity extends AppCompatActivity {
                 .setTitle("Error") //Загаловок
                 .setMessage(message) //Сообщение
                 .setPositiveButton("Okay", null) //Кнопки
-                .show();
+                .show(); //Само окошко
     }
 }

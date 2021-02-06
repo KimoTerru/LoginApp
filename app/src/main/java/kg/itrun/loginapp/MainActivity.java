@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity { //То что нам ну�
     TextView signUp;
     DataBase dataBase;
     SharedPreferences prefs;
-    int s = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
